@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<?import com.example.testingtoolbar.CustomBoxControl?>
+<?import javafx.scene.control.ScrollBar?>
+<?import com.example.testingtoolbar.CustomBoxController2?>
+
+
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" prefHeight="364.0" prefWidth="565.0" spacing="20.0"
+      xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1"
+      fx:controller="com.example.testingtoolbar.HelloController">
+
+
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <ToolBar fx:id="toolbar" prefHeight="40.0" prefWidth="200.0">
+    <Button fx:id="box1"  text="Custombox1" onAction="#handleButtonClick1"/>
+    <Button fx:id="box2" layoutX = "300" text="CustomBox2" onAction="#handleButtonClick2"/>
+       
+    </ToolBar>
+
+
+   <ScrollPane fx:id="scrollPane" prefHeight="256.0" prefWidth="525.0" >
+
+
+
+
+
+
+
+<!--        <CustomBoxControl>-->
+<!--        </CustomBoxControl>-->
+
+<!--       <CustomBoxController2>-->
+
+<!--       </CustomBoxController2>-->
+    </ScrollPane>
+
+
+</VBox>

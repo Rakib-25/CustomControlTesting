@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.example.testingtoolbar.CustomBoxControl?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <CustomBoxControl layoutX="14.0" layoutY="37.0" />
+      <CustomBoxControl layoutX="290.0" layoutY="37.0" />
+   </children>
+</Pane>
